@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_listado_activity"
+            android:icon="@drawable/ic_pel"
+            android:title="@string/listado" />
+        <item
+            android:id="@+id/nav_buscar_activity"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Buscar"
+            />
+        <item
+            android:id="@+id/nav_second_activity"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Peliculas Destacadas" />
+        <item
+            android:id="@+id/nav_perfil_activity"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Ver Perfil" />
+
+        <item
+            android:id="@+id/nav_aboutme_activity"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="About me"
+            />
+
+        <item
+            android:id="@+id/nav_contact_activity"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Contacto"
+            />
+
+        <item
+            android:id="@+id/nav_pedir_activity"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Pide tu pelicula"
+            />
+
+        <item
+            android:id="@+id/nav_logout_activity"
+            android:icon="@drawable/ic_baseline_settings_power_24"
+            android:title="@string/LogOutBoton"
+            />
+
+
+
+    </group>
+</menu>
